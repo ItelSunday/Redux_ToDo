@@ -1,4 +1,5 @@
-# Redux & React
+# Redux & React: Create To Do List
+ * Bare Project
 
 Topics:
 
