@@ -5,6 +5,14 @@ import App from './App';
 
 import { Provider } from 'react-redux'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const store = createStore(rootReducer)
+
+const app = (
+    <Provider store= {}>
+        <App />
+    </Provider>
+)
+
+ReactDOM.render(app, document.getElementById('root'));
 
 
